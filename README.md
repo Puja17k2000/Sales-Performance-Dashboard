@@ -31,6 +31,20 @@ The dashboard enables users to monitor business performance, identify profitable
 
 ---
 
+# 🧹 Data Cleaning (Excel)
+
+Before loading the dataset into SQL, performed initial cleaning in Excel:
+
+- Removed duplicate rows from the raw dataset
+- Checked and removed blank/missing values across all columns
+- Verified column data types (dates, numbers, text) were consistent 
+  before exporting for SQL analysis
+
+Final cleaned file (`Superstore_Working.xlsx`) contains 9,977 rows across 
+13 columns with zero duplicates and zero missing values.
+
+---
+
 # 📂 Dataset
 
 **Dataset Used:** Sample Superstore Dataset

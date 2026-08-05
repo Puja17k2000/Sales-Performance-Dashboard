@@ -101,6 +101,31 @@ The dataset contains information about:
 
 ---
 
+# 🧮 SQL Analysis
+
+Wrote 15 SQL queries to analyze the dataset beyond what's shown on the 
+dashboard, covering business KPIs, customer behavior, and time-based trends.
+
+Key techniques used:
+- **CTEs** – e.g. calculating year-over-year revenue growth by first 
+  aggregating yearly sales, then comparing against the prior year
+- **Window Functions** – `RANK()` to rank customers by total spend, 
+  `LAG()` to pull prior year's revenue for growth calculations
+- **CASE Statements** – classified sub-categories as "Profitable" or 
+  "Loss", and customers into High/Medium/Low value tiers based on spend
+- **HAVING clause** – isolated products with negative profit for 
+  loss-analysis
+
+Sample queries include:
+- Year-over-year growth analysis using `LAG()` to compare revenue 
+  across years
+- Customer segmentation (High/Medium/Low value) based on total spend 
+  using a CTE
+- Loss-making product identification using `HAVING SUM(Profit) < 0`
+- Discount impact analysis — average profit grouped by discount level
+
+---
+
 # 📁 Project Structure
 
 ```text

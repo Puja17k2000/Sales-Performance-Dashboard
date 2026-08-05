@@ -199,7 +199,6 @@ Sales-Performance-Dashboard/
 - Customer Segmentation Analysis
 - Sales Forecasting
 - Profit Prediction
-- Advanced DAX Measures
 - Drill-through Reports
 - Dynamic KPI Cards
 

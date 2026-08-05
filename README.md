@@ -58,8 +58,6 @@ The dataset contains information about:
 - 📉 Profit by Category
 - 🌍 Regional Sales Analysis
 - 🛒 Top Products
-- 📅 Monthly Sales Trend
-- 🎛️ Interactive Slicers and Filters
 
 ---
 

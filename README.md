@@ -75,11 +75,29 @@ The dataset contains information about:
 
 # 🔍 Key Business Insights
 
-- Identified the highest revenue-generating product categories.
-- Compared profitability across different regions.
-- Analyzed monthly sales growth patterns.
-- Identified top-performing products.
-- Highlighted opportunities to improve profitability.
+- Technology led all categories in sales at ₹836.15K (36.4% of total), 
+  slightly ahead of Furniture (₹741.31K, 32.3%) — but Furniture actually 
+  drags down overall profitability (see below).
+
+- Tables were the single biggest loss-maker in the business, posting 
+  -₹18K in profit despite solid sales volume — likely driven by heavy 
+  discounting. Bookcases (-₹3K) and Supplies (-₹1K) were also unprofitable, 
+  meaning 3 sub-categories were actively losing money.
+
+- Copiers, Phones, and Accessories were the most profitable sub-categories 
+  (₹56K, ₹45K, ₹42K respectively), all from the Technology category — 
+  reinforcing that Technology is the strongest performer per rupee sold.
+
+- The West region led in sales (₹0.73M), followed closely by East (₹0.68M), 
+  while South lagged behind at ₹0.39M — nearly half of West's volume.
+
+- Consumer segment dominated sales at ₹1.2M, roughly 60% more than 
+  Corporate (₹0.7M) and 3x Home Office (₹0.4M), suggesting the business 
+  is heavily reliant on individual/small buyers rather than large accounts.
+
+- Overall profit margin sits at 12.47% — a useful benchmark for evaluating 
+  whether specific categories or regions are dragging the average down 
+  (Furniture's negative sub-categories are the clearest culprit).
 
 ---
 

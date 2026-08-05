@@ -126,6 +126,26 @@ Sample queries include:
 
 ---
 
+# 📐 DAX Measures
+
+Built custom DAX measures in Power BI to calculate business KPIs 
+dynamically rather than relying on static values.
+```
+Total profit = SUM(SampleSuperstore[Profit])
+
+Total Sales = SUM(SampleSuperstore[Sales])
+
+Profit Margin % = DIVIDE(SUM(SampleSuperstore[Profit]), SUM(SampleSuperstore[Sales]), 0)
+```
+While building this, I initially wrote a `Profit Margin` measure that 
+referenced undefined `[Total Profit]` and `[Total Sales]` measures, 
+which threw an error. Fixed it by properly defining `Total profit` and 
+`Total Sales` as standalone measures, then removed the earlier duplicate 
+once `Profit Margin %` (using direct column references) was confirmed 
+working correctly.
+
+---
+
 # 📁 Project Structure
 
 ```text

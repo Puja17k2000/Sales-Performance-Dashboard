@@ -88,14 +88,13 @@ ORDER BY Year, Month;
 
 -- 6. Top 10 Customers by Revenue
 
-SELECT
+SELECT TOP 10
     Customer_Name,
     SUM(Sales) AS Revenue,
     SUM(Profit) AS Profit
 FROM Superstore
 GROUP BY Customer_Name
-ORDER BY Revenue DESC
-LIMIT 10;
+ORDER BY Revenue DESC;
 
 
 
@@ -127,14 +126,13 @@ ORDER BY Total_Sales DESC;
 
 -- 8. Top Products by Sales
 
-SELECT
+SELECT TOP 10
     Product_Name,
     SUM(Sales) AS Total_Sales,
     SUM(Profit) AS Total_Profit
 FROM Superstore
 GROUP BY Product_Name
-ORDER BY Total_Sales DESC
-LIMIT 10;
+ORDER BY Total_Sales DESC;
 
 
 
